@@ -1,0 +1,36 @@
+@import url(./__image/card__image.css);
+@import url(./__image/_m-size/card__image_m-size.css);
+@import url(./__text/card__text.css);
+@import url(./__text/_m-size/card__text_m-size.css);
+
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.1;
+  z-index: 10;
+}
+
+.card:hover:after {
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in;
+}

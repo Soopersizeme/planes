@@ -1,0 +1,8 @@
+.intro__image-plane {
+  z-index: 5;
+  width: 150px;
+  height: 150px;
+  align-self: center;
+  position: absolute;
+  top: 230px;
+}

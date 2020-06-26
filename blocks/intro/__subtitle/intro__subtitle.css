@@ -1,0 +1,11 @@
+.intro__subtitle:last-child {
+  padding-bottom: 20px;
+}
+
+.intro__subtitle {
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  line-height: 20px;
+  font-weight: 700;
+}

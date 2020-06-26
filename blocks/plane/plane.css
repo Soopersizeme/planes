@@ -1,0 +1,25 @@
+@import url(./__link/plane__link.css);
+@import url(./__image/plane__image.css);
+
+.plane {
+  background-image: url(https://images.squarespace-cdn.com/content/589e834eff7c50486de031c3/1534602935246-AZY6ML0CCQGPEXY38AFM/dsc_1949-4.jpg?format=1500w&content-type=image%2Fjpeg);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0 80px;
+  position: relative;
+}
+
+.plane:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.5;
+  z-index: 5;
+}

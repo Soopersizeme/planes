@@ -1,0 +1,14 @@
+.header__nav-link:hover {
+  background-color: rgba(148, 188, 248, 0.432);
+}
+
+.header__nav-link:last-child {
+  margin: 0;
+}
+
+.header__nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 20px;
+}

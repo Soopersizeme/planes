@@ -1,0 +1,7 @@
+.header__logo-text {
+  margin: 10px 10px;
+  align-self: flex-end;
+  color: white;
+  font-size: 26px;
+  font-weight: bolder;
+}

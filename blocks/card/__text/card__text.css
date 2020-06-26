@@ -1,0 +1,12 @@
+.card__text {
+  z-index: 20;
+  margin: 0;
+  padding: 15px;
+  width: 270px;
+  text-align: center;
+  background-color: rgba(1, 78, 167, 0.897);
+}
+
+.card__text:hover {
+  opacity: 0.8;
+}

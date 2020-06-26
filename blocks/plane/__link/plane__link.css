@@ -1,0 +1,17 @@
+.plane__link {
+  z-index: 6;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  opacity: 0.3;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.plane__link:hover {
+  opacity: 0.9;
+  background-color: rgb(1, 105, 224);
+  transition: background-color 0.4s ease-in-out;
+}

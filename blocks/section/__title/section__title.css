@@ -1,0 +1,6 @@
+.section__title {
+  font-weight: bolder;
+  margin: 0;
+  padding-bottom: 5px;
+  z-index: 6;
+}

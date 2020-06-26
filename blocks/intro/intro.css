@@ -1,0 +1,10 @@
+@import url(./__image-earth/intro__image-earth.css);
+@import url(./__image-plane/intro__image-plane.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__texts/intro__texts.css);
+@import url(./__title/intro__title.css);
+
+.intro {
+  width: 100%;
+  height: 520px;
+}

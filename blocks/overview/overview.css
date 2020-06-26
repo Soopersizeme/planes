@@ -1,0 +1,12 @@
+@import url(./__image/_footer/overview__image_footer.css);
+@import url(./__image/overview__image.css);
+@import url(./__link/overview__link.css);
+
+.overview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 20px;
+  background-color: rgba(1, 78, 167, 0.555);
+}

@@ -1,0 +1,14 @@
+.overview__link {
+  text-decoration: none;
+  padding: 10px;
+  margin: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.overview__link:hover {
+  opacity: 0.9;
+  background-color: rgb(1, 105, 224);
+  transition: background-color 0.4s ease-in-out;
+}
